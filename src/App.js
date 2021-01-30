@@ -11,7 +11,7 @@ const App = (props) => {
 
   const api = {
     key: "3b25419d01f65e3f70c83d72fa46545e",
-    base: "http://api.openweathermap.org/data/2.5/"
+    base: "https://api.openweathermap.org/data/2.5/"
   }
 
   const [query, setQuery] = useState('');

@@ -76,7 +76,7 @@ const App = (props) => {
                 <div className="description">{weather.weather[0].description}</div>
               </div>
             </>
-          ) : (!loading && <h3 className="spin text-white">City Not Found</h3>)}
+          ) : (!loading && <h3 className="spin text-white">Enter A City...</h3>)}
           {loading && <div className="spin"><Spinner animation="grow" variant="info" /></div>}
         </main>
       </div>
